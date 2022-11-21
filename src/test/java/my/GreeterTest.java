@@ -9,7 +9,7 @@ public class GreeterTest {
     @Test
     public void test_greet() {
         String expected = "Hello, world!";
-        String actual = new Greeter().greet("world");
+        String actual = new Greeter().greet("Banksy");
         assertEquals(expected, actual);
     }
 }
