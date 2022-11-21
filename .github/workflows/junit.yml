@@ -19,9 +19,6 @@ jobs:
         with:
           arguments: build
 
-      - name: grant permissions to gradlew
-        run: chmod +x gradlew
-
       - name: Run the Gradle test task
         uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
         with:
