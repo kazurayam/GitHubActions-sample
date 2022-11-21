@@ -10,6 +10,6 @@ jobs:
         with:
           node-version: "14"
       - run: |
-          npm install -g esling
+          npm install -g eslint
           eslint -v
           eslint 'src/index.js'
